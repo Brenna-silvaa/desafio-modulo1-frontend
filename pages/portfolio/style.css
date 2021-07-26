@@ -1,0 +1,92 @@
+.padding {
+    padding: 0px 164px;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+.imagem  {
+    width: 540px;
+    height: 500px;
+}
+.info {
+    width: 350px;
+    height: 500px;
+}
+.linha {
+    width: 350px;
+}
+
+.info h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    margin-top: 100px;
+    margin-bottom: 28px;
+}
+
+.info p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.8;
+    margin-bottom: 54px;
+}
+
+.info a {
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: none;
+    padding: 17px 38px;
+    border: 1px solid #33323D;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+}
+
+.baixa {
+    margin-top: 100px;
+}
+.ultimo {
+    margin-bottom: 150px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.contato h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D
+}
+.contato a{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    padding: 17px 50px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #33323D;
+}
+
+.contato a:hover {
+    color: #FAFAFA;
+    background-color: #33323D;
+
+}

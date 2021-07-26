@@ -1,0 +1,107 @@
+.padding {
+    padding: 0px 164px;
+}
+
+.linha {
+    width: 100%;
+}
+
+.texto-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.texto-column p {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.8;
+    width: 635px;
+    margin-bottom: 54px;
+}
+
+.texto-column img {
+    margin-bottom: 48px;
+}
+
+.git {
+    margin-right: 15px;
+} 
+.twitter {
+    margin-right: 15px;
+}
+
+.contato {
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 109px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D; 
+    opacity: 0.8;
+    margin-bottom: 8px;
+}
+
+input {
+    all: unset; 
+    box-sizing: border-box;
+    background: rgba(51, 50, 61, 0.1);
+    color: black;
+    height: 48px;
+    width: 635px;
+     mix-blend-mode: normal;
+    margin-bottom: 24px;
+    padding: 5px;
+}
+
+.maior {
+    height: 96px;
+}
+
+button {
+    background: #203A4C;
+    color: white;
+    width: 200px;
+    height: 48px;
+    border: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #5FB4A2;
+}
+
+input:focus {
+    border: 2px solid black;
+}
+
